@@ -1,2 +1,2 @@
 # homework-1
-# Lenox Grayson & Rokhsana Ahmadi
+Lenox Grayson & Rokhsana Ahmadi
