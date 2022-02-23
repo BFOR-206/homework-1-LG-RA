@@ -36,7 +36,3 @@ if [ $packet_loss -ne 0 ]
     echo "please check your mailbox!" 
   fi
 
-
-
-
-
