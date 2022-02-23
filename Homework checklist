@@ -1,0 +1,21 @@
+#1. Ping devices (2 pts)
+1.1 Show that the script pings addresses (1pt) ✅ 
+1.2 You should ping at least 3 addresses. One address should be out-of-service (you can use 1.2.3.4) (1pt)
+
+
+#2. Log information (2 pts) 
+Show the log file with script output. The logs must have a timestamp for each entry (2pts) ✅ 
+
+
+#3. Email when getting errors (3 pts) 
+Show the emails you receive from the failed pings for the out-of-service IP address ✅ 
+
+
+#4. Run task at regular intervals (3 pts)
+Show the crontab file and the log demonstrating the program runs at the specified intervals.
+
+
+#5. Avoid hard coded inputs (3 pts)
+5.1 Accept addresses as arguments (1pt)✅ 
+5.2 Read addresses from a text file (1pt)
+5.3 Read multiple addresses from a text file (1pt)
