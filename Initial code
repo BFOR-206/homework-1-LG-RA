@@ -1,0 +1,36 @@
+#! /bin/bash
+#Lenox Grayson & Rokhsana Ahmadi
+
+#TEST WEBSITES USED IN ARGS: GOOGLE.COM // NUPEDIA.COM
+
+#date the ping
+echo "pinged on: `date` " 
+echo
+
+#ping the website three times
+ping -c3 $1
+
+#isolate packet loss
+packet_loss=$( ping -c3 $1 |  grep -oP '\d+(?=% packet loss)')
+
+#display packet loss
+echo
+echo "packet loss:"  $packet_loss
+
+#display normal status if packet loss is zero
+#display NOT normal status if packet loss is more than zero 
+if [ $packet_loss -eq 0 ]
+  then 
+     echo "this device is normal"
+  else
+    echo "this device is NOT normal"
+  fi
+
+#send mail to admin if packet loss is more than zero
+#tell them to check their inbox
+if [ $packet_loss -ne 0 ]
+  then 
+    echo “message body” | mail -s “broken website ” kali@kali
+    echo "please check your mailbox!" 
+  fi
+
