@@ -1,7 +1,9 @@
 #! /bin/bash
 #Lenox Grayson & Rokhsana Ahmadi
 
+
 #TEST WEBSITES USED IN ARGS: GOOGLE.COM // NUPEDIA.COM
+
 
 #date the ping
 echo "pinged on: `date` " 
