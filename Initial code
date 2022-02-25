@@ -32,7 +32,7 @@ do
     else
           echo "This device is NOT normal"
     fi
-
+ echo
 # send mail to admin if packet loss is more than zero
 # tell them to check their inbox
   
