@@ -6,6 +6,7 @@
 
 
 #CRON SCRIPT:
+
 <img width="543" alt="cron script (google)" src="https://user-images.githubusercontent.com/63032682/156269981-22162e67-fe4a-4597-82c3-9f2550c0acce.png">
 
 <img width="424" alt="cron script output(google)" src="https://user-images.githubusercontent.com/63032682/156269988-00b9ead7-047a-4a9a-99b1-0b7ef7f2e561.png">
