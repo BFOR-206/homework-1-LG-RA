@@ -14,9 +14,9 @@ Show the log file with script output. The logs must have a timestamp for each en
 Show the emails you receive from the failed pings for the out-of-service IP address ✅ 
 
 
-#4. Run task at regular intervals (3 pts)
+#4. Run task at regular intervals (3 pts) ✅ 
 
-Show the crontab file and the log demonstrating the program runs at the specified intervals.
+Show the crontab file and the log demonstrating the program runs at the specified intervals. ✅ 
 
 
 #5. Avoid hard coded inputs (3 pts)
